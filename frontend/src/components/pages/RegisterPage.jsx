@@ -262,7 +262,7 @@ function RegisterPage({ onRegister, onSignInClick }) {
               <Mail style={{ width: '1.25rem', height: '1.25rem', color: '#9ca3af', marginRight: '0.75rem' }} />
               <input
                 type="email"
-                placeholder="Email Address"
+                placeholder="Email Adress"
                 value={formData.email}
                 onChange={(e) => handleChange('email', e.target.value)}
                 onFocus={() => setFocusedField('email')}
